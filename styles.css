@@ -1,12 +1,8 @@
 body {
     margin: 20px;
-    /*
-    Challenge:
-    Find a web safe font you like, and add it 
-    to your card.
-    */
     font-family: Courier New, Courier, monospace;
     font-style: italic;
+    text-shadow: 0 0 4px black;
 }
 
 h3:hover, h4:hover, p:hover {
@@ -15,7 +11,8 @@ h3:hover, h4:hover, p:hover {
 
 .avatar {
     width: 150px;
-    border-radius: 75px;
+    border-radius: 80px;
+    border: 2px solid #2ba84a;
 }
 
 .card {
@@ -26,12 +23,12 @@ h3:hover, h4:hover, p:hover {
     justify-content: space-around;
     text-align: center;
     background: #2D3A3A;
-    color: #FCFFFC;
+    color: #fcfffc;
     border-bottom: 6px groove #248232;
     border-top: 6px ridge #248232;
     border-radius: 5px;
     box-shadow: 10px 10px 10px #040F0F;
-        
+
     /*
     Challenge:
     Find a color palette you like on Coolors.co
@@ -40,7 +37,7 @@ h3:hover, h4:hover, p:hover {
 }
 /*
 Stretch goals:
-Find other ways you can personalize 
+Find other ways you can personalize
 the design of your business card, e.g.:
 - change the border(s)
 - add border radius
@@ -49,4 +46,3 @@ the design of your business card, e.g.:
 - hover effects  🤯🤯
 - animations     🤯🤯🤯
 */
-
